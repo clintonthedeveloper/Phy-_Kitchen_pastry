@@ -1,0 +1,6 @@
+{
+  "name": "Phy's Kitchen",
+  "description": "Feminine, elegant, and luxurious artisanal bakery and pastry boutique in Nairobi, Kenya.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

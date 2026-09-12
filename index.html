@@ -1,0 +1,1627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Brand Metadata -->
+  <title>Phy’s Kitchen | Artisanal Bakery & Luxury Pastry Boutique in Nairobi</title>
+  <meta name="description" content="Phy’s Kitchen is an elegant, feminine bakery in Nairobi, Kenya crafting bespoke cakes, golden pastries, cupcakes, and gourmet sweet treats made with love.">
+  <meta name="keywords" content="Phy's Kitchen, bakery Nairobi, custom cakes Nairobi, wedding cakes Kenya, birthday cake, pastries, croissants, cupcakes, sweet treats, artisanal bakery">
+  <meta name="author" content="Phy's Kitchen">
+  
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Phy’s Kitchen | Sweet Moments, Beautifully Baked">
+  <meta property="og:description" content="Delicious cakes, pastries and sweet treats made with love in Nairobi, Kenya. Order bespoke cakes for birthdays, weddings, and celebrations.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1200&auto=format&fit=crop">
+  <meta property="og:url" content="https://www.instagram.com/physkitchen/">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Phy’s Kitchen | Luxury Pastry & Cakes">
+  <meta name="twitter:description" content="Delicious cakes, pastries and sweet treats handcrafted with love.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1200&auto=format&fit=crop">
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧁</text></svg>">
+
+  <!-- Google Web Fonts: Playfair Display (Serif), Poppins (Sans), Great Vibes (Script Accent) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       1. NAVIGATION BAR (STICKY & RESPONSIVE)
+       ======================================================================== -->
+  <header class="header-nav" id="mainHeader">
+    <div class="container nav-container">
+      
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo" id="brandLogo" aria-label="Phy's Kitchen Home">
+        <div class="logo-symbol">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <!-- Cupcake / Crown Emblem -->
+            <path d="M12 2a4 4 0 0 1 4 4c0 .34-.04.67-.12.98A4 4 0 0 1 18 10a4 4 0 0 1-1.34 3H7.34A4 4 0 0 1 6 10a4 4 0 0 1 2.12-3.02A4 4 0 0 1 12 2z"></path>
+            <path d="M7 13v6a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-6"></path>
+            <path d="M12 2v2"></path>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">Phy’s Kitchen</span>
+          <span class="brand-tagline">Artisanal Patisserie</span>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#hero" class="nav-link active" id="navLinkHome">Home</a></li>
+          <li><a href="#about" class="nav-link" id="navLinkAbout">About</a></li>
+          <li><a href="#menu" class="nav-link" id="navLinkMenu">Menu</a></li>
+          <li><a href="#services" class="nav-link" id="navLinkServices">Services</a></li>
+          <li><a href="#gallery" class="nav-link" id="navLinkGallery">Gallery</a></li>
+          <li><a href="#contact" class="nav-link" id="navLinkContact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions (Instagram & CTA) -->
+      <div class="nav-actions">
+        <!-- Clickable Instagram Icon -->
+        <a href="https://www.instagram.com/physkitchen/" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="nav-instagram-btn" 
+           id="navInstagramBtn"
+           data-social="instagram" 
+           title="Follow Phy's Kitchen on Instagram"
+           aria-label="Visit Phy's Kitchen on Instagram">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+        </a>
+
+        <!-- Quick CTA Button -->
+        <a href="#contact" class="btn btn-primary btn-sm" id="navOrderCta">Order Now</a>
+
+        <!-- Mobile Hamburger Button -->
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <!-- ========================================================================
+         2. HERO SECTION
+         ======================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-decoration">
+        <div class="hero-circle-1"></div>
+        <div class="hero-circle-2"></div>
+      </div>
+
+      <div class="container hero-grid">
+        <!-- Hero Left Content -->
+        <div class="hero-content-left">
+          <div class="hero-badge" id="heroBadge">
+            <span class="hero-badge-sparkle">✨</span>
+            <span>Handcrafted With Love in Nairobi</span>
+          </div>
+
+          <h1 class="hero-title" id="heroMainHeading">
+            Sweet Moments, <br>
+            <span class="highlight-text">Beautifully Baked</span>
+          </h1>
+
+          <p class="hero-subtitle" id="heroSubtitle">
+            Delicious cakes, pastries and sweet treats made with love. From bespoke celebration tiers to fresh morning flaky croissants, we turn your sweetest dreams into reality.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#menu" class="btn btn-primary" id="heroBtnMenu">
+              <span>Explore Our Menu</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary" id="heroBtnOrder">
+              <span>Order Now</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Hero Stats Strip -->
+          <div class="hero-stats-strip" id="heroStatsStrip">
+            <div class="stat-item">
+              <span class="stat-number" data-target="100" data-suffix="%">100%</span>
+              <span class="stat-label">Fresh Daily Baking</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="500" data-suffix="+">500+</span>
+              <span class="stat-label">Celebrations Made Sweet</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="5.0" data-prefix="★ ">5.0</span>
+              <span class="stat-label">Customer Satisfaction</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Visual -->
+        <div class="hero-visual-wrapper">
+          <div class="hero-image-frame">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1200&auto=format&fit=crop" 
+                 alt="Phy's Kitchen elegant handcrafted rose floral tiered cake"
+                 loading="eager"
+                 id="heroMainImg">
+          </div>
+
+          <!-- Floating Decorative Card Top -->
+          <div class="hero-float-card card-top" id="heroFloatFresh">
+            <div class="float-icon-box">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+              </svg>
+            </div>
+            <div>
+              <div class="float-card-title">100% Homemade Taste</div>
+              <div class="float-card-subtitle">Finest Belgian Cocoa & Butter</div>
+            </div>
+          </div>
+
+          <!-- Floating Decorative Card Bottom -->
+          <div class="hero-float-card card-bottom" id="heroFloatDelivery">
+            <div class="float-icon-box">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="1" y="3" width="15" height="13"></rect>
+                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                <circle cx="18.5" cy="18.5" r="2.5"></circle>
+              </svg>
+            </div>
+            <div>
+              <div class="float-card-title">Prompt Cake Delivery</div>
+              <div class="float-card-subtitle">Chilled & Pristine in Nairobi</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         3. ABOUT PHY’S KITCHEN
+         ======================================================================== -->
+    <section class="section-padding about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          
+          <!-- Image Composition Left -->
+          <div class="about-image-composition reveal-on-scroll">
+            <div class="about-gold-frame"></div>
+            <div class="about-main-image-box">
+              <img src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=1000&auto=format&fit=crop" 
+                   alt="Phy's Kitchen artisan decorating a fresh strawberry cream cake" 
+                   loading="lazy">
+            </div>
+            <div class="about-experience-badge">
+              <span class="badge-number">PK</span>
+              <div class="badge-text">
+                Bespoke Patisserie<br>
+                <span>Made With Pure Passion</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Text Right -->
+          <div class="about-content reveal-on-scroll">
+            <div class="section-eyebrow">The Story Behind Our Bakery</div>
+            <h2 class="section-title">About Phy’s Kitchen</h2>
+            <div class="gold-divider" style="margin-left: 0;">
+              <span class="divider-sparkle">✦</span>
+            </div>
+
+            <p class="about-lead-paragraph">
+              Phy’s Kitchen creates delicious homemade-style cakes, pastries and sweet treats using quality ingredients and beautiful presentation.
+            </p>
+
+            <p class="about-body-text">
+              Born from a heartfelt love for romantic aesthetics and culinary perfection, Phy’s Kitchen turns simple celebrations into unforgettable sweet milestones. We believe every cake should tell a story—blending melt-in-the-mouth texture with sophisticated contemporary decor, soft blush tones, and golden details.
+            </p>
+
+            <!-- 4 Required Pillars -->
+            <div class="about-pillars-grid">
+              
+              <!-- 1. Freshly Baked -->
+              <div class="pillar-item">
+                <div class="pillar-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2v8"></path>
+                    <path d="m4.93 10.93 1.41 1.41"></path>
+                    <path d="M2 18h2"></path>
+                    <path d="M20 18h2"></path>
+                    <path d="m19.07 10.93-1.41 1.41"></path>
+                    <path d="M22 22H2"></path>
+                    <path d="m8 22 4-10 4 10"></path>
+                  </svg>
+                </div>
+                <div class="pillar-content">
+                  <h4>Freshly Baked</h4>
+                  <p>Pulled straight from our ovens daily for supreme softness and authentic fragrance.</p>
+                </div>
+              </div>
+
+              <!-- 2. Quality Ingredients -->
+              <div class="pillar-item">
+                <div class="pillar-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                  </svg>
+                </div>
+                <div class="pillar-content">
+                  <h4>Quality Ingredients</h4>
+                  <p>Real farm butter, pure Belgian chocolates, Madagascar vanilla, and organic dairy.</p>
+                </div>
+              </div>
+
+              <!-- 3. Beautiful Presentation -->
+              <div class="pillar-item">
+                <div class="pillar-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                </div>
+                <div class="pillar-content">
+                  <h4>Beautiful Presentation</h4>
+                  <p>Exquisite floral styling, modern color harmonies, and Instagram-worthy elegance.</p>
+                </div>
+              </div>
+
+              <!-- 4. Made with Love -->
+              <div class="pillar-item">
+                <div class="pillar-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                  </svg>
+                </div>
+                <div class="pillar-content">
+                  <h4>Made With Love</h4>
+                  <p>Every single batch receives our complete devotion, personal care, and warmth.</p>
+                </div>
+              </div>
+
+            </div>
+
+            <a href="#contact" class="btn btn-primary" id="aboutOrderCta">Schedule a Cake Consultation</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         4. OUR MENU SECTION
+         ======================================================================== -->
+    <section class="section-padding menu-section" id="menu">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="section-eyebrow">Artisanal Selection</div>
+          <h2 class="section-title">Our Sweet Menu</h2>
+          <div class="gold-divider">
+            <span class="divider-sparkle">✦</span>
+          </div>
+          <p class="section-subtitle">
+            Explore our handcrafted cakes, delicate morning pastries, and delightful sweet treat collections.
+          </p>
+        </div>
+
+        <!-- Category Filter Tabs -->
+        <div class="menu-filter-container reveal-on-scroll" id="menuFilterTabs">
+          <button class="filter-btn active" data-filter="all" id="filterAll">All Delights</button>
+          <button class="filter-btn" data-filter="cakes" id="filterCakes">Cakes</button>
+          <button class="filter-btn" data-filter="pastries" id="filterPastries">Pastries</button>
+          <button class="filter-btn" data-filter="treats" id="filterTreats">Sweet Treats</button>
+        </div>
+
+        <!-- Menu Cards Grid -->
+        <div class="menu-cards-grid" id="menuCardsGrid">
+          
+          <!-- ================= CAKES ================= -->
+
+          <!-- 1. Birthday Cakes -->
+          <div class="menu-card reveal-on-scroll" data-category="cakes" id="productCardBirthdayCake">
+            <div class="menu-card-image-wrap">
+              <img src="https://images.unsplash.com/photo-1535141192574-5d4897c13136?q=80&w=800&auto=format&fit=crop" 
+                   alt="Bespoke Birthday Cake by Phy's Kitchen" loading="lazy">
+              <span class="menu-card-badge">Custom Cake</span>
+            </div>
+            <div class="menu-card-content">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Birthday Cakes</h3>
+                <span class="menu-card-price">From KSh 3,500</span>
+              </div>
+              <p class="menu-card-desc">Custom-themed celebration cakes crafted with your favorite fillings, velvet frostings, and personalized toppers.</p>
+              <div class="menu-card-footer">
+                <button class="menu-order-btn" data-product="Birthday Cakes" aria-label="Order Birthday Cakes">
+                  <span>Order Now</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Wedding Cakes -->
+          <div class="menu-card reveal-on-scroll" data-category="cakes" id="productCardWeddingCake">
+            <div class="menu-card-image-wrap">
+              <img src="https://images.unsplash.com/photo-1535254973040-607b474cb50d?q=80&w=800&auto=format&fit=crop" 
+                   alt="Romantic Tiered Wedding Cake by Phy's Kitchen" loading="lazy">
+              <span class="menu-card-badge">Luxury Tiers</span>
+            </div>
+            <div class="menu-card-content">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Wedding Cakes</h3>
+                <span class="menu-card-price">From KSh 15,000</span>
+              </div>
+              <p class="menu-card-desc">Stunning multi-tiered centerpieces with delicate edible florals, gold leaf accents, and romantic bridal hues.</p>
+              <div class="menu-card-footer">
+                <button class="menu-order-btn" data-product="Wedding Cakes" aria-label="Order Wedding Cakes">
+                  <span>Order Now</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Red Velvet Cake -->
+          <div class="menu-card reveal-on-scroll" data-category="cakes" id="productCardRedVelvet">
+            <div class="menu-card-image-wrap">
+              <img src="https://images.unsplash.com/photo-1586788680434-30d324b2d46f?q=80&w=800&auto=format&fit=crop" 
+                   alt="Signature Red Velvet Cake with Cream Cheese Frosting" loading="lazy">
+              <span class="menu-card-badge">Bestseller</span>
+            </div>
+            <div class="menu-card-content">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Red Velvet Cake</h3>
+                <span class="menu-card-price">KSh 3,800</span>
+              </div>
+              <p class="menu-card-desc">Silky crimson crumb layered with velvety smooth Madagascar vanilla cream cheese frosting.</p>
+              <div class="menu-card-footer">
+                <button class="menu-order-btn" data-product="Red Velvet Cake" aria-label="Order Red Velvet Cake">
+                  <span>Order Now</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Chocolate Cake -->
+          <div class="menu-card reveal-on-scroll" data-category="cakes" id="productCardChocolateCake">
+            <div class="menu-card-image-wrap">
+              <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop" 
+                   alt="Belgian Fudge Chocolate Cake" loading="lazy">
+              <span class="menu-card-badge">Decadent</span>
+            </div>
+            <div class="menu-card-content">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Chocolate Cake</h3>
+                <span class="menu-card-price">KSh 3,600</span>
+              </div>
+              <p class="menu-card-desc">Rich dark Belgian chocolate sponge wrapped in glossy chocolate fudge ganache and cocoa crisps.</p>
+              <div class="menu-card-footer">
+                <button class="menu-order-btn" data-product="Chocolate Cake" aria-label="Order Chocolate Cake">
+                  <span>Order Now</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. Vanilla Cake -->
+          <div class="menu-card reveal-on-scroll" data-category="cakes" id="productCardVanillaCake">
+            <div class="menu-card-image-wrap">
+              <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=800&auto=format&fit=crop" 
+                   alt="Classic Vanilla Bean Butter Cake" loading="lazy">
+              <span class="menu-card-badge">Classic</span>
+            </div>
+            <div class="menu-card-content">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Vanilla Cake</h3>
+                <span class="menu-card-price">KSh 3,200</span>
+              </div>
+              <p class="menu-card-desc">Light and airy golden butter sponge infused with real Madagascar vanilla bean and Swiss meringue buttercream.</p>
+              <div class="menu-card-footer">
+                <button class="menu-order-btn" data-product="Vanilla Cake" aria-label="Order Vanilla Cake">
+                  <span>Order Now</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- ================= PASTRIES ================= -->
+
+          <!-- 6. Croissants -->
+          <div class="menu-card reveal-on-scroll" data-category="pastries" id="productCardCroissants">
+            <div class="menu-card-image-wrap">
+              <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=800&auto=format&fit=crop" 
+                   alt="Flaky French Butter Croissants" loading="lazy">
+              <span class="menu-card-badge">Oven Fresh</span>
+            </div>
+            <div class="menu-card-content">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Croissants</h3>
+                <span class="menu-card-price">KSh 300 ea</span>
+              </div>
+              <p class="menu-card-desc">Traditional French laminations made with pure dairy butter for honeycomb crumb and crispy golden flakiness.</p>
+              <div class="menu-card-footer">
+                <button class="menu-order-btn" data-product="Croissants" aria-label="Order Croissants">
+                  <span>Order Now</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 7. Doughnuts -->
+          <div class="menu-card reveal-on-scroll" data-category="pastries" id="productCardDoughnuts">
+            <div class="menu-card-image-wrap">
+              <img src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?q=80&w=800&auto=format&fit=crop" 
+                   alt="Gourmet Glazed Doughnuts" loading="lazy">
+              <span class="menu-card-badge">Soft & Fluffy</span>
+            </div>
+            <div class="menu-card-content">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Doughnuts</h3>
+                <span class="menu-card-price">KSh 250 ea</span>
+              </div>
+              <p class="menu-card-desc">Brioche yeast donuts filled with salted caramel, raspberry coulis, or dusted with cinnamon sugar glaze.</p>
+              <div class="menu-card-footer">
+                <button class="menu-order-btn" data-product="Doughnuts" aria-label="Order Doughnuts">
+                  <span>Order Now</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 8. Cupcakes -->
+          <div class="menu-card reveal-on-scroll" data-category="pastries" id="productCardCupcakes">
+            <div class="menu-card-image-wrap">
+              <img src="https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?q=80&w=800&auto=format&fit=crop" 
+                   alt="Artisan Rose Swirl Cupcakes" loading="lazy">
+              <span class="menu-card-badge">Box of 6 / 12</span>
+            </div>
+            <div class="menu-card-content">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Cupcakes</h3>
+                <span class="menu-card-price">KSh 1,500 / box</span>
+              </div>
+              <p class="menu-card-desc">Delicately piped buttercream swirls on velvety sponges decorated with pearls, glitter, and fresh fruits.</p>
+              <div class="menu-card-footer">
+                <button class="menu-order-btn" data-product="Cupcakes" aria-label="Order Cupcakes">
+                  <span>Order Now</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 9. Muffins -->
+          <div class="menu-card reveal-on-scroll" data-category="pastries" id="productCardMuffins">
+            <div class="menu-card-image-wrap">
+              <img src="https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?q=80&w=800&auto=format&fit=crop" 
+                   alt="Fresh Blueberry Crumble Muffins" loading="lazy">
+              <span class="menu-card-badge">Breakfast Treat</span>
+            </div>
+            <div class="menu-card-content">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Muffins</h3>
+                <span class="menu-card-price">KSh 250 ea</span>
+              </div>
+              <p class="menu-card-desc">Loaded with wild blueberries, double chocolate chunks, or spiced apple crumble tops.</p>
+              <div class="menu-card-footer">
+                <button class="menu-order-btn" data-product="Muffins" aria-label="Order Muffins">
+                  <span>Order Now</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 10. Meat Pies -->
+          <div class="menu-card reveal-on-scroll" data-category="pastries" id="productCardMeatPies">
+            <div class="menu-card-image-wrap">
+              <img src="https://images.unsplash.com/photo-1621236378699-8597fee6a1ce?q=80&w=800&auto=format&fit=crop" 
+                   alt="Savory Golden Flaky Meat Pies" loading="lazy">
+              <span class="menu-card-badge">Savory Crust</span>
+            </div>
+            <div class="menu-card-content">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Meat Pies</h3>
+                <span class="menu-card-price">KSh 280 ea</span>
+              </div>
+              <p class="menu-card-desc">Flaky buttery pastry pockets generously stuffed with seasoned minced beef, carrots, and garden herbs.</p>
+              <div class="menu-card-footer">
+                <button class="menu-order-btn" data-product="Meat Pies" aria-label="Order Meat Pies">
+                  <span>Order Now</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- ================= SWEET TREATS ================= -->
+
+          <!-- 11. Cookies -->
+          <div class="menu-card reveal-on-scroll" data-category="treats" id="productCardCookies">
+            <div class="menu-card-image-wrap">
+              <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?q=80&w=800&auto=format&fit=crop" 
+                   alt="Chewy Chocolate Chip and Macadamia Cookies" loading="lazy">
+              <span class="menu-card-badge">Chewy & Golden</span>
+            </div>
+            <div class="menu-card-content">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Cookies</h3>
+                <span class="menu-card-price">KSh 1,200 / pack</span>
+              </div>
+              <p class="menu-card-desc">Crispy golden edges with chewy centres in Sea Salt Dark Chocolate, White Macadamia, and Red Velvet.</p>
+              <div class="menu-card-footer">
+                <button class="menu-order-btn" data-product="Cookies" aria-label="Order Cookies">
+                  <span>Order Now</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 12. Brownies -->
+          <div class="menu-card reveal-on-scroll" data-category="treats" id="productCardBrownies">
+            <div class="menu-card-image-wrap">
+              <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=800&auto=format&fit=crop" 
+                   alt="Fudgy Belgian Chocolate Brownies" loading="lazy">
+              <span class="menu-card-badge">Fudgy Luxury</span>
+            </div>
+            <div class="menu-card-content">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Brownies</h3>
+                <span class="menu-card-price">KSh 1,800 / box</span>
+              </div>
+              <p class="menu-card-desc">Dense, fudgy Belgian dark chocolate squares topped with salted caramel drizzle and roasted hazelnuts.</p>
+              <div class="menu-card-footer">
+                <button class="menu-order-btn" data-product="Brownies" aria-label="Order Brownies">
+                  <span>Order Now</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 13. Cake Pops -->
+          <div class="menu-card reveal-on-scroll" data-category="treats" id="productCardCakePops">
+            <div class="menu-card-image-wrap">
+              <img src="https://images.unsplash.com/photo-1587314168485-3236d6710814?q=80&w=800&auto=format&fit=crop" 
+                   alt="Sparkling Party Cake Pops" loading="lazy">
+              <span class="menu-card-badge">Party Favorite</span>
+            </div>
+            <div class="menu-card-content">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Cake Pops</h3>
+                <span class="menu-card-price">KSh 1,500 / dozen</span>
+              </div>
+              <p class="menu-card-desc">Bite-sized moist cake truffles dipped in pastel pink and ivory white chocolate candy coating with sprinkles.</p>
+              <div class="menu-card-footer">
+                <button class="menu-order-btn" data-product="Cake Pops" aria-label="Order Cake Pops">
+                  <span>Order Now</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 14. Dessert Boxes -->
+          <div class="menu-card reveal-on-scroll" data-category="treats" id="productCardDessertBoxes">
+            <div class="menu-card-image-wrap">
+              <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop" 
+                   alt="Curated Luxury Bakery Dessert Box" loading="lazy">
+              <span class="menu-card-badge">Gifting</span>
+            </div>
+            <div class="menu-card-content">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Dessert Boxes</h3>
+                <span class="menu-card-price">From KSh 2,800</span>
+              </div>
+              <p class="menu-card-desc">A lavish assorted gift box filled with mini brownies, macarons, tartlets, and gourmet cookies tied in silk ribbon.</p>
+              <div class="menu-card-footer">
+                <button class="menu-order-btn" data-product="Dessert Boxes" aria-label="Order Dessert Boxes">
+                  <span>Order Now</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         5. SERVICES SECTION
+         ======================================================================== -->
+    <section class="section-padding services-section" id="services">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="section-eyebrow">What We Offer</div>
+          <h2 class="section-title">Our Premium Services</h2>
+          <div class="gold-divider">
+            <span class="divider-sparkle">✦</span>
+          </div>
+          <p class="section-subtitle">
+            From intimate birthday breakfasts to grand corporate galas, we deliver sweet luxury tailored for every moment.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          
+          <!-- 1. Custom Cakes -->
+          <div class="service-card reveal-on-scroll" id="serviceCardCustomCakes">
+            <div class="service-icon-wrap">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2a4 4 0 0 1 4 4c0 .34-.04.67-.12.98A4 4 0 0 1 18 10a4 4 0 0 1-1.34 3H7.34A4 4 0 0 1 6 10a4 4 0 0 1 2.12-3.02A4 4 0 0 1 12 2z"></path>
+                <path d="M7 13v6a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-6"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Custom Cakes</h3>
+            <p class="service-desc">Tailored bespoke cake designs created from your photos, moodboards, color schemes, and party themes.</p>
+            <a href="#contact" class="service-inquire-link" data-product="Custom Cakes">
+              <span>Inquire Service</span> →
+            </a>
+          </div>
+
+          <!-- 2. Birthday Cakes -->
+          <div class="service-card reveal-on-scroll" id="serviceCardBirthdayCakes">
+            <div class="service-icon-wrap">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <h3 class="service-title">Birthday Cakes</h3>
+            <p class="service-desc">Make milestone birthdays extra special with show-stopping tiers, customized toppers, and decadent flavors.</p>
+            <a href="#contact" class="service-inquire-link" data-product="Birthday Cakes">
+              <span>Inquire Service</span> →
+            </a>
+          </div>
+
+          <!-- 3. Wedding Cakes -->
+          <div class="service-card reveal-on-scroll" id="serviceCardWeddingCakes">
+            <div class="service-icon-wrap">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Wedding Cakes</h3>
+            <p class="service-desc">Elegance in every tier. Complete bridal cake consultations, tasting samples, and venue setup on your big day.</p>
+            <a href="#contact" class="service-inquire-link" data-product="Wedding Cakes">
+              <span>Inquire Service</span> →
+            </a>
+          </div>
+
+          <!-- 4. Corporate Orders -->
+          <div class="service-card reveal-on-scroll" id="serviceCardCorporate">
+            <div class="service-icon-wrap">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Corporate Orders</h3>
+            <p class="service-desc">Branded logo cupcakes, launch celebration cakes, and employee appreciation pastry packages.</p>
+            <a href="#contact" class="service-inquire-link" data-product="Corporate Orders">
+              <span>Inquire Service</span> →
+            </a>
+          </div>
+
+          <!-- 5. Dessert Catering -->
+          <div class="service-card reveal-on-scroll" id="serviceCardCatering">
+            <div class="service-icon-wrap">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                <line x1="6" y1="1" x2="6" y2="4"></line>
+                <line x1="10" y1="1" x2="10" y2="4"></line>
+                <line x1="14" y1="1" x2="14" y2="4"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Dessert Catering</h3>
+            <p class="service-desc">Lavish dessert tables styled to perfection with mini cakes, macarons, mousse shooters, and cake pops.</p>
+            <a href="#contact" class="service-inquire-link" data-product="Dessert Catering">
+              <span>Inquire Service</span> →
+            </a>
+          </div>
+
+          <!-- 6. Pastry Boxes -->
+          <div class="service-card reveal-on-scroll" id="serviceCardPastryBoxes">
+            <div class="service-icon-wrap">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Pastry Boxes</h3>
+            <p class="service-desc">Curated morning breakfast and brunch boxes featuring warm butter croissants, muffins, and meat pies.</p>
+            <a href="#contact" class="service-inquire-link" data-product="Pastry Boxes">
+              <span>Inquire Service</span> →
+            </a>
+          </div>
+
+          <!-- 7. Event Orders -->
+          <div class="service-card reveal-on-scroll" id="serviceCardEvents">
+            <div class="service-icon-wrap">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <h3 class="service-title">Event Orders</h3>
+            <p class="service-desc">Sweet setups for baby showers, bridal showers, graduations, family brunches, and festive holidays.</p>
+            <a href="#contact" class="service-inquire-link" data-product="Event Orders">
+              <span>Inquire Service</span> →
+            </a>
+          </div>
+
+          <!-- 8. Cake Delivery -->
+          <div class="service-card reveal-on-scroll" id="serviceCardDelivery">
+            <div class="service-icon-wrap">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="1" y="3" width="15" height="13"></rect>
+                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                <circle cx="18.5" cy="18.5" r="2.5"></circle>
+              </svg>
+            </div>
+            <h3 class="service-title">Cake Delivery</h3>
+            <p class="service-desc">Carefully boxed, temperature-controlled delivery throughout Nairobi ensuring your treats arrive flawless.</p>
+            <a href="#contact" class="service-inquire-link" data-product="Cake Delivery">
+              <span>Inquire Service</span> →
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         6. GALLERY SECTION WITH VANILLA JS LIGHTBOX
+         ======================================================================== -->
+    <section class="section-padding gallery-section" id="gallery">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="section-eyebrow">Sweet Portfolio</div>
+          <h2 class="section-title">Our Creation Gallery</h2>
+          <div class="gold-divider">
+            <span class="divider-sparkle">✦</span>
+          </div>
+          <p class="section-subtitle">
+            Click on any photo to view our handcrafted cakes, croissants, cupcakes, and bakery art in high resolution.
+          </p>
+        </div>
+
+        <!-- Gallery Filter Tabs -->
+        <div class="gallery-filter-container reveal-on-scroll">
+          <button class="gallery-filter-btn active" data-gallery-filter="all">All Photos</button>
+          <button class="gallery-filter-btn" data-gallery-filter="cakes">Cakes</button>
+          <button class="gallery-filter-btn" data-gallery-filter="pastries">Pastries</button>
+          <button class="gallery-filter-btn" data-gallery-filter="treats">Desserts & Treats</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid" id="galleryGrid">
+          
+          <!-- 1. Cake -->
+          <div class="gallery-item reveal-on-scroll" data-gallery-category="cakes" data-title="Blush Floral Tiered Cake">
+            <img src="https://images.unsplash.com/photo-1535141192574-5d4897c13136?q=80&w=800&auto=format&fit=crop" 
+                 alt="Blush Floral Tiered Cake by Phy's Kitchen" loading="lazy">
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+              </div>
+              <div class="gallery-overlay-title">Blush Floral Tiered Cake</div>
+              <div class="gallery-overlay-category">Bespoke Cakes</div>
+            </div>
+          </div>
+
+          <!-- 2. Cupcakes -->
+          <div class="gallery-item reveal-on-scroll" data-gallery-category="pastries" data-title="Rose Swirl Buttercream Cupcakes">
+            <img src="https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?q=80&w=800&auto=format&fit=crop" 
+                 alt="Rose Swirl Buttercream Cupcakes" loading="lazy">
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+              </div>
+              <div class="gallery-overlay-title">Rose Swirl Cupcakes</div>
+              <div class="gallery-overlay-category">Cupcakes</div>
+            </div>
+          </div>
+
+          <!-- 3. Croissants -->
+          <div class="gallery-item reveal-on-scroll" data-gallery-category="pastries" data-title="Golden Flaky Butter Croissants">
+            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=800&auto=format&fit=crop" 
+                 alt="Golden Flaky Butter Croissants" loading="lazy">
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+              </div>
+              <div class="gallery-overlay-title">Golden Croissants</div>
+              <div class="gallery-overlay-category">Pastries</div>
+            </div>
+          </div>
+
+          <!-- 4. Cookies -->
+          <div class="gallery-item reveal-on-scroll" data-gallery-category="treats" data-title="Artisan Chocolate Chunk Cookies">
+            <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?q=80&w=800&auto=format&fit=crop" 
+                 alt="Artisan Chocolate Chunk Cookies" loading="lazy">
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+              </div>
+              <div class="gallery-overlay-title">Gourmet Cookies</div>
+              <div class="gallery-overlay-category">Sweet Treats</div>
+            </div>
+          </div>
+
+          <!-- 5. Doughnuts -->
+          <div class="gallery-item reveal-on-scroll" data-gallery-category="pastries" data-title="Pink Berry Glazed Doughnuts">
+            <img src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?q=80&w=800&auto=format&fit=crop" 
+                 alt="Pink Berry Glazed Doughnuts" loading="lazy">
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+              </div>
+              <div class="gallery-overlay-title">Glazed Doughnuts</div>
+              <div class="gallery-overlay-category">Pastries</div>
+            </div>
+          </div>
+
+          <!-- 6. Wedding Cake -->
+          <div class="gallery-item reveal-on-scroll" data-gallery-category="cakes" data-title="Ethereal White Lace Wedding Cake">
+            <img src="https://images.unsplash.com/photo-1535254973040-607b474cb50d?q=80&w=800&auto=format&fit=crop" 
+                 alt="Ethereal White Lace Wedding Cake" loading="lazy">
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+              </div>
+              <div class="gallery-overlay-title">Royal Wedding Cake</div>
+              <div class="gallery-overlay-category">Wedding Tiers</div>
+            </div>
+          </div>
+
+          <!-- 7. Dessert Boxes / Macarons -->
+          <div class="gallery-item reveal-on-scroll" data-gallery-category="treats" data-title="French Pastel Macaron Assortment">
+            <img src="https://images.unsplash.com/photo-1569864321390-343f8029d21e?q=80&w=800&auto=format&fit=crop" 
+                 alt="French Pastel Macaron Assortment" loading="lazy">
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+              </div>
+              <div class="gallery-overlay-title">Pastel Macarons</div>
+              <div class="gallery-overlay-category">Dessert Boxes</div>
+            </div>
+          </div>
+
+          <!-- 8. Red Velvet Cake -->
+          <div class="gallery-item reveal-on-scroll" data-gallery-category="cakes" data-title="Velveteen Strawberry Cake">
+            <img src="https://images.unsplash.com/photo-1586788680434-30d324b2d46f?q=80&w=800&auto=format&fit=crop" 
+                 alt="Velveteen Strawberry Cake" loading="lazy">
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+              </div>
+              <div class="gallery-overlay-title">Red Velvet Layer Cake</div>
+              <div class="gallery-overlay-category">Cakes</div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Lightbox Modal Container -->
+    <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Bakery Image Preview">
+      <div class="lightbox-content-box">
+        <button class="lightbox-close-btn" id="lightboxClose" aria-label="Close Lightbox">&times;</button>
+        <button class="lightbox-nav-btn lightbox-prev-btn" id="lightboxPrev" aria-label="Previous Image">&#10094;</button>
+        <button class="lightbox-nav-btn lightbox-next-btn" id="lightboxNext" aria-label="Next Image">&#10095;</button>
+
+        <div class="lightbox-image-wrap">
+          <img src="" alt="Phy's Kitchen Gallery Preview" id="lightboxImg">
+        </div>
+
+        <div class="lightbox-caption-bar">
+          <h4 class="lightbox-title" id="lightboxTitle">Cake Title</h4>
+          <span class="lightbox-category" id="lightboxCategory">CATEGORY</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================================================================
+         7. WHY CHOOSE PHY’S KITCHEN
+         ======================================================================== -->
+    <section class="section-padding why-choose-section" id="whyChoose">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="section-eyebrow">The Phy’s Difference</div>
+          <h2 class="section-title">Why Choose Phy’s Kitchen</h2>
+          <div class="gold-divider">
+            <span class="divider-sparkle">✦</span>
+          </div>
+          <p class="section-subtitle">
+            Our uncompromised standards and artistic spirit make every order a sweet celebration.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          
+          <!-- Feature 1: Freshly Baked -->
+          <div class="feature-card reveal-on-scroll">
+            <div class="feature-icon-outer">
+              <div class="feature-icon-inner">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2v8"></path>
+                  <path d="m4.93 10.93 1.41 1.41"></path>
+                  <path d="M2 18h2"></path>
+                  <path d="M20 18h2"></path>
+                  <path d="m19.07 10.93-1.41 1.41"></path>
+                  <path d="M22 22H2"></path>
+                  <path d="m8 22 4-10 4 10"></path>
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-title">Freshly Baked</h3>
+            <p class="feature-desc">We bake daily in small batches to guarantee unmatched aroma, cloud-like crumb, and optimal flavor in every single bite.</p>
+          </div>
+
+          <!-- Feature 2: Quality Ingredients -->
+          <div class="feature-card reveal-on-scroll">
+            <div class="feature-icon-outer">
+              <div class="feature-icon-inner">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-title">Quality Ingredients</h3>
+            <p class="feature-desc">Zero artificial preservatives. We source premium pure butter, Belgian chocolate couvertures, and farm-fresh local dairy.</p>
+          </div>
+
+          <!-- Feature 3: Custom Designs -->
+          <div class="feature-card reveal-on-scroll">
+            <div class="feature-icon-outer">
+              <div class="feature-icon-inner">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m12 19 7-7 3 3-7 7-3-3z"></path>
+                  <path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                  <path d="m2 2 7.586 7.586"></path>
+                  <circle cx="11" cy="11" r="2"></circle>
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-title">Custom Designs</h3>
+            <p class="feature-desc">No two creations are alike. We collaborate intimately with you to bring your dream aesthetic and color palette to life.</p>
+          </div>
+
+          <!-- Feature 4: Made With Love -->
+          <div class="feature-card reveal-on-scroll">
+            <div class="feature-icon-outer">
+              <div class="feature-icon-inner">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-title">Made With Love</h3>
+            <p class="feature-desc">Every swirl, ribbon, and sprinkle is crafted with heartfelt passion and attentive devotion for your joy.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         8. CUSTOMER TESTIMONIALS
+         ======================================================================== -->
+    <section class="section-padding testimonials-section" id="testimonials">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="section-eyebrow">Sweet Words</div>
+          <h2 class="section-title">Customer Testimonials</h2>
+          <div class="gold-divider">
+            <span class="divider-sparkle">✦</span>
+          </div>
+          <p class="section-subtitle">
+            Read what our wonderful clients have to say about their Phy’s Kitchen experience.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          
+          <!-- Testimonial 1: Sarah -->
+          <div class="testimonial-card reveal-on-scroll" id="testimonialSarah">
+            <div class="testimonial-quote-icon">“</div>
+            <div class="testimonial-stars" aria-label="5 stars rating">★★★★★</div>
+            <p class="testimonial-text">
+              "Absolutely beautiful cake and it tasted even better! Our guests couldn't stop talking about how moist and flavorful the red velvet was. Truly remarkable work!"
+            </p>
+            <div class="testimonial-author-box">
+              <div class="author-avatar-initials">S</div>
+              <div>
+                <h4 class="author-name">Sarah</h4>
+                <span class="author-role">Wedding Anniversary Celebration</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2: Mary -->
+          <div class="testimonial-card reveal-on-scroll" id="testimonialMary">
+            <div class="testimonial-quote-icon">“</div>
+            <div class="testimonial-stars" aria-label="5 stars rating">★★★★★</div>
+            <p class="testimonial-text">
+              "The presentation was perfect. I will definitely order again! The delicate floral details, packaging and fresh croissants made our birthday morning unforgettable."
+            </p>
+            <div class="testimonial-author-box">
+              <div class="author-avatar-initials">M</div>
+              <div>
+                <h4 class="author-name">Mary</h4>
+                <span class="author-role">Birthday Party Order</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3: Angela -->
+          <div class="testimonial-card reveal-on-scroll" id="testimonialAngela">
+            <div class="testimonial-quote-icon">“</div>
+            <div class="testimonial-stars" aria-label="5 stars rating">★★★★★</div>
+            <p class="testimonial-text">
+              "Phy’s Kitchen made our celebration extra special. From the very first message to seamless delivery in Nairobi, the service was pure luxury and the cake was divine."
+            </p>
+            <div class="testimonial-author-box">
+              <div class="author-avatar-initials">A</div>
+              <div>
+                <h4 class="author-name">Angela</h4>
+                <span class="author-role">Corporate Gala & Dessert Bar</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         9. INSTAGRAM SECTION
+         ======================================================================== -->
+    <section class="section-padding instagram-section" id="instagram">
+      <div class="container">
+        
+        <div class="instagram-banner-box reveal-on-scroll">
+          <div class="instagram-large-icon-wrap" id="instagramLargeIcon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </div>
+
+          <div class="section-eyebrow">Join Our Community</div>
+          <h2 class="section-title">Follow Our Sweet Journey</h2>
+          <div class="gold-divider">
+            <span class="divider-sparkle">✦</span>
+          </div>
+
+          <p class="section-subtitle">
+            See our latest cakes, pastries and behind-the-scenes creations on Instagram.
+          </p>
+          
+          <a href="https://www.instagram.com/physkitchen/" target="_blank" rel="noopener noreferrer" class="instagram-handle" data-social="instagram">
+            @physkitchen
+          </a>
+
+          <div>
+            <a href="https://www.instagram.com/physkitchen/" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="btn btn-primary" 
+               id="instagramFollowBtn"
+               data-social="instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+              <span>Follow Us on Instagram</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 6 Aesthetic Square Instagram Grid Preview -->
+        <div class="instagram-feed-grid reveal-on-scroll">
+          
+          <a href="https://www.instagram.com/physkitchen/" target="_blank" rel="noopener noreferrer" class="insta-photo-card" data-social="instagram" aria-label="View on Instagram">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=600&auto=format&fit=crop" alt="Instagram Post 1" loading="lazy">
+            <div class="insta-overlay">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </div>
+          </a>
+
+          <a href="https://www.instagram.com/physkitchen/" target="_blank" rel="noopener noreferrer" class="insta-photo-card" data-social="instagram" aria-label="View on Instagram">
+            <img src="https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?q=80&w=600&auto=format&fit=crop" alt="Instagram Post 2" loading="lazy">
+            <div class="insta-overlay">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </div>
+          </a>
+
+          <a href="https://www.instagram.com/physkitchen/" target="_blank" rel="noopener noreferrer" class="insta-photo-card" data-social="instagram" aria-label="View on Instagram">
+            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=600&auto=format&fit=crop" alt="Instagram Post 3" loading="lazy">
+            <div class="insta-overlay">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </div>
+          </a>
+
+          <a href="https://www.instagram.com/physkitchen/" target="_blank" rel="noopener noreferrer" class="insta-photo-card" data-social="instagram" aria-label="View on Instagram">
+            <img src="https://images.unsplash.com/photo-1535254973040-607b474cb50d?q=80&w=600&auto=format&fit=crop" alt="Instagram Post 4" loading="lazy">
+            <div class="insta-overlay">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </div>
+          </a>
+
+          <a href="https://www.instagram.com/physkitchen/" target="_blank" rel="noopener noreferrer" class="insta-photo-card" data-social="instagram" aria-label="View on Instagram">
+            <img src="https://images.unsplash.com/photo-1569864321390-343f8029d21e?q=80&w=600&auto=format&fit=crop" alt="Instagram Post 5" loading="lazy">
+            <div class="insta-overlay">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </div>
+          </a>
+
+          <a href="https://www.instagram.com/physkitchen/" target="_blank" rel="noopener noreferrer" class="insta-photo-card" data-social="instagram" aria-label="View on Instagram">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=600&auto=format&fit=crop" alt="Instagram Post 6" loading="lazy">
+            <div class="insta-overlay">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </div>
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         10. CONTACT / ORDER SECTION
+         ======================================================================== -->
+    <section class="section-padding contact-section" id="contact">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="section-eyebrow">Get In Touch</div>
+          <h2 class="section-title">Order & Celebration Request</h2>
+          <div class="gold-divider">
+            <span class="divider-sparkle">✦</span>
+          </div>
+          <p class="section-subtitle">
+            Tell us about your celebration, choose your favorite treats, and let us prepare something sweet for you.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Details Left Card -->
+          <div class="contact-info-card reveal-on-scroll" id="contactInfoCard">
+            <h3 class="contact-info-title">Let’s Bake Together</h3>
+            <p class="contact-info-desc">
+              Whether you need a custom birthday cake, wedding consultation, or a corporate morning pastry box, we are always eager to assist.
+            </p>
+
+            <div class="contact-details-list">
+              
+              <!-- Phone -->
+              <div class="contact-detail-item">
+                <div class="contact-detail-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-detail-label">Phone / WhatsApp</div>
+                  <div class="contact-detail-val">
+                    <a href="tel:+254700000000" data-contact="phone" id="contactPhoneDisplay">+254 XXX XXX XXX</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Email -->
+              <div class="contact-detail-item">
+                <div class="contact-detail-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-detail-label">Direct Email</div>
+                  <div class="contact-detail-val">
+                    <a href="mailto:hello@physkitchen.com" data-contact="email" id="contactEmailDisplay">hello@physkitchen.com</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Location -->
+              <div class="contact-detail-item">
+                <div class="contact-detail-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-detail-label">Bakery Studio Location</div>
+                  <div class="contact-detail-val" id="contactLocationDisplay">Nairobi, Kenya</div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- WhatsApp Direct Action -->
+            <a href="https://wa.me/254700000000" target="_blank" rel="noopener noreferrer" class="contact-whatsapp-btn" data-contact="whatsapp">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.2.662.591 1.221.774 1.394.86.174.086.275.072.376-.043.101-.116.433-.506.549-.68.116-.173.231-.144.39-.086s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824z"></path>
+              </svg>
+              <span>Chat Directly on WhatsApp</span>
+            </a>
+          </div>
+
+          <!-- Order Request Form Right -->
+          <div class="order-form-card reveal-on-scroll">
+            <div class="form-header-box">
+              <h3 class="form-title">Send Your Order Request</h3>
+              <p class="form-subtitle">Fill out the details below and we will confirm availability promptly.</p>
+            </div>
+
+            <form id="bakeryOrderForm" class="order-form" novalidate>
+              
+              <!-- Full Name -->
+              <div class="form-group">
+                <label for="orderFullName" class="form-label">Full Name <span class="required-star">*</span></label>
+                <input type="text" id="orderFullName" class="form-input" placeholder="e.g. Sarah Mwangi" required>
+              </div>
+
+              <!-- Phone & Email Row -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="orderPhone" class="form-label">Phone Number <span class="required-star">*</span></label>
+                  <input type="tel" id="orderPhone" class="form-input" placeholder="e.g. +254 712 345 678" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="orderEmail" class="form-label">Email Address <span class="required-star">*</span></label>
+                  <input type="email" id="orderEmail" class="form-input" placeholder="e.g. sarah@example.com" required>
+                </div>
+              </div>
+
+              <!-- Product Select & Quantity Row -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="orderProduct" class="form-label">Select Product <span class="required-star">*</span></label>
+                  <select id="orderProduct" class="form-select" required>
+                    <option value="" disabled selected>-- Choose Cake or Treat --</option>
+                    
+                    <optgroup label="Cakes">
+                      <option value="Birthday Cakes">Birthday Cakes</option>
+                      <option value="Wedding Cakes">Wedding Cakes</option>
+                      <option value="Red Velvet Cake">Red Velvet Cake</option>
+                      <option value="Chocolate Cake">Chocolate Cake</option>
+                      <option value="Vanilla Cake">Vanilla Cake</option>
+                    </optgroup>
+
+                    <optgroup label="Pastries">
+                      <option value="Croissants">Croissants</option>
+                      <option value="Doughnuts">Doughnuts</option>
+                      <option value="Cupcakes">Cupcakes</option>
+                      <option value="Muffins">Muffins</option>
+                      <option value="Meat Pies">Meat Pies</option>
+                    </optgroup>
+
+                    <optgroup label="Sweet Treats">
+                      <option value="Cookies">Cookies</option>
+                      <option value="Brownies">Brownies</option>
+                      <option value="Cake Pops">Cake Pops</option>
+                      <option value="Dessert Boxes">Dessert Boxes</option>
+                    </optgroup>
+
+                    <optgroup label="Custom & Catering">
+                      <option value="Custom Cake Consultation">Custom Cake Consultation</option>
+                      <option value="Event / Catering Inquiry">Event / Catering Inquiry</option>
+                    </optgroup>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="orderQuantity" class="form-label">Quantity / Servings <span class="required-star">*</span></label>
+                  <input type="number" id="orderQuantity" class="form-input" value="1" min="1" max="100" required>
+                </div>
+              </div>
+
+              <!-- Preferred Date -->
+              <div class="form-group">
+                <label for="orderDate" class="form-label">Preferred Date <span class="required-star">*</span></label>
+                <input type="date" id="orderDate" class="form-input" required>
+              </div>
+
+              <!-- Message / Special Request -->
+              <div class="form-group">
+                <label for="orderMessage" class="form-label">Message / Special Request</label>
+                <textarea id="orderMessage" class="form-textarea" placeholder="Tell us about flavors, theme, inscription on the cake (e.g., 'Happy 25th Birthday Grace!'), dietary notes, or delivery address..."></textarea>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary" id="orderSubmitBtn" style="width: 100%;">
+                <span>Send Order Request</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Success Modal Popup -->
+    <div class="success-modal" id="successModal" role="dialog" aria-modal="true" aria-label="Order Confirmation Modal">
+      <div class="success-modal-card">
+        <div class="success-icon-wrap">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+        </div>
+        <h3 class="success-title">Order Request Received!</h3>
+        <p class="success-desc">
+          Thank you for choosing Phy’s Kitchen! We have received your celebration order details and our baker will reach out via WhatsApp/phone shortly to confirm.
+        </p>
+
+        <div class="success-summary-box" id="successSummary">
+          <!-- Populated by JavaScript -->
+        </div>
+
+        <button class="btn btn-primary" id="successCloseBtn">Wonderful, Thank You!</button>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ========================================================================
+       11. FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-top-grid">
+        
+        <!-- Col 1: Brand -->
+        <div>
+          <div class="footer-brand-title">Phy’s Kitchen</div>
+          <div class="footer-brand-quote">"Sweetness baked with love."</div>
+          <p class="footer-brand-desc">
+            Artisanal celebration cakes, melt-in-your-mouth pastries, and bespoke dessert tables handcrafted daily in Nairobi, Kenya.
+          </p>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div>
+          <h4 class="footer-column-title">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="#hero" class="footer-link">Home</a></li>
+            <li><a href="#about" class="footer-link">About Phy's Kitchen</a></li>
+            <li><a href="#menu" class="footer-link">Our Sweet Menu</a></li>
+            <li><a href="#services" class="footer-link">Bespoke Services</a></li>
+            <li><a href="#gallery" class="footer-link">Photo Gallery</a></li>
+            <li><a href="#contact" class="footer-link">Order Online</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Menu Categories -->
+        <div>
+          <h4 class="footer-column-title">Our Specialties</h4>
+          <ul class="footer-links-list">
+            <li><a href="#menu" class="footer-link">Birthday Cakes</a></li>
+            <li><a href="#menu" class="footer-link">Luxury Wedding Cakes</a></li>
+            <li><a href="#menu" class="footer-link">Flaky French Croissants</a></li>
+            <li><a href="#menu" class="footer-link">Artisan Cupcake Boxes</a></li>
+            <li><a href="#menu" class="footer-link">Chewy Gourmet Cookies</a></li>
+            <li><a href="#menu" class="footer-link">Belgian Fudge Brownies</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Social Media Icons -->
+        <div>
+          <h4 class="footer-column-title">Connect With Us</h4>
+          <p style="font-size: 0.88rem; color: #C7BAC0; margin-bottom: 1rem;">
+            Follow our bakery journey and see our fresh oven batches daily:
+          </p>
+          <div class="footer-social-links">
+            
+            <!-- Instagram (Clickable to https://www.instagram.com/physkitchen/) -->
+            <a href="https://www.instagram.com/physkitchen/" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="footer-social-btn" 
+               id="footerInstagramBtn"
+               data-social="instagram"
+               title="Instagram: @physkitchen" 
+               aria-label="Phy's Kitchen on Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+
+            <!-- Facebook -->
+            <a href="https://facebook.com/physkitchen" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="footer-social-btn" 
+               id="footerFacebookBtn"
+               title="Facebook" 
+               aria-label="Phy's Kitchen on Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+
+            <!-- TikTok -->
+            <a href="https://tiktok.com/@physkitchen" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="footer-social-btn" 
+               id="footerTiktokBtn"
+               title="TikTok" 
+               aria-label="Phy's Kitchen on TikTok">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+              </svg>
+            </a>
+
+            <!-- WhatsApp -->
+            <a href="https://wa.me/254700000000" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="footer-social-btn" 
+               id="footerWhatsappBtn"
+               data-contact="whatsapp"
+               title="WhatsApp" 
+               aria-label="Chat with Phy's Kitchen on WhatsApp">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.2.662.591 1.221.774 1.394.86.174.086.275.072.376-.043.101-.116.433-.506.549-.68.116-.173.231-.144.39-.086s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824z"></path>
+              </svg>
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Copyright Bar -->
+      <div class="footer-bottom-bar">
+        <div>© 2026 Phy’s Kitchen. All Rights Reserved.</div>
+        <div>Handcrafted with <span class="footer-love-tag">♥</span> for sweet memories in Nairobi, Kenya.</div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Back to Top Floating Button -->
+  <button class="back-to-top-btn" id="backToTopBtn" aria-label="Scroll back to top of page">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Core JavaScript -->
+  <script src="./script.js"></script>
+</body>
+</html>
